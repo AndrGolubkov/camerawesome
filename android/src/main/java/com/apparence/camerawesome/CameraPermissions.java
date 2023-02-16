@@ -22,7 +22,7 @@ public class CameraPermissions implements EventChannel.StreamHandler, PluginRegi
 
     private static final String TAG = CameraPermissions.class.getName();
 
-    private static  final String[] permissions = new String[]{ CAMERA, WRITE_EXTERNAL_STORAGE };
+    private static  final String[] permissions = new String[]{ CAMERA };
 
     private static final int PERMISSIONS_MULTIPLE_REQUEST = 5;
 
